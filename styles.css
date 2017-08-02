@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Mobile */
+
+body {
+  background-color: #E8ECEF;
+}
+
+.site {
+  width: 100%;
+  text-align: center;
+}
+
+/* Button Styling */
+
+button {
+  background-color: skyblue; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 25px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Button Styling */
+
+/* Cover Image / Header Start */
+
+.cover {
+  background-color: palegoldenrod; 
+  background: url(/images/cover.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.cover > p {
+  line-height: 100vh;
+}
+
+/* Cover Image / Header End*/
+
+/* Nav Start */
+
+nav {
+  background-color:white; 
+}
+
+nav ul,li, a {
+  text-align: center;
+  list-style:none;
+  text-decoration: none;
+  color: #046380;
+}
+
+nav li {
+  display: block;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+nav a {
+  display:block;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+i {
+  color: #046380;
+  float: right;
+}
+
+/* Nav End*/
+
+/* Bed & Breakfast Start */
+
+.bb {
+  line-height: 1.6;
+  font-size: 1.2em;
+  padding: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.bb h1,h3 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.bb ul, li {
+  text-align: left;
+  padding: 5px;
+}
+
+.bb p {
+  text-align: justify;
+}
+
+/* Bed & Breakfast End */
+
+/* Apartments Start */
+
+.apt {
+  line-height: 1.6;
+  font-size: 1.2em;
+  padding: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.apt h1 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.apt ul, li {
+  text-align: left;
+  padding: 5px;
+}
+
+.apt p {
+  text-align: justify;
+}
+
+/* Apartments End */
+
+/* Rates Start */
+
+.rates {
+  line-height: 1.6;
+  font-size: 1.2em;
+  padding: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.rates h1,h2 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.rates p {
+  text-align: justify;
+}
+
+.rates table {
+  text-align: center;
+  margin: auto;
+  
+}
+
+.rates td {
+  padding: 15px;
+  text-decoration: underline;
+}
+
+.gallery {
+  border-bottom: 1px solid grey;
+}
+
+/* Testimonials Start */
+
+.testimonials {
+  line-height: 1.6;
+  font-size: 1.2em;
+  padding: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.testimonials h1 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.testimonials blockquote, p {
+  padding: 10px;
+}
+
+/* Contact Start */
+
+.contact {
+  line-height: 1.6;
+  font-size: 1.2em;
+  padding: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.contact p {
+  text-align: justify;
+}
+
+.contact h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.contact form {
+/*  box-sizing: border-box;*/
+}
+
+.contact label {
+  display: block;
+  text-align: left;
+  padding: 10px 0 10px 0;
+}
+
+.contact input {
+  width: 100%;
+  font-size: 0.9em;
+  padding: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.contact textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 0.9em;
+  border: 1px solid black;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.contact input[type=submit] {
+  width:50%;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  color: white;
+}
+
+/* Contact End */
+
+/* Location Start*/
+
+.location {
+  line-height: 1.6;
+  font-size: 1.2em;
+  padding: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.location h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.location iframe {
+  width: 90%;
+  margin: 0 auto;
+  height: 500px;
+  border-bottom: 1px solid grey;
+  padding-top: 25px;
+}
+
+/* Location End */
+
+/* Attractions Start */
+
+*.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container {
+  font-family: 'Cousine', monospace;
+  background-color: #E8ECEF;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  margin: 25px;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0 5px 64px 17px rgba(183, 189, 194, 1);
+}
+
+.card:hover {
+  box-shadow: 0 5px 64px 17px rgba(149, 154, 158, 1);
+}
+
+.card-head {
+  overflow: hidden;
+  width: 225px;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 2px 2px 0 0;
+  transition: all .2s ease-in-out;
+}
+
+.header3 {
+  transition: all .2s ease-in-out;
+}
+
+.card-head {
+  width: 225px;
+  height: 200px;
+}
+
+.card:hover .card-img {
+  transform: scale(1.1);
+}
+
+.card-body {
+  background: #fff;
+  width: 225px;
+  height: 100px;
+  border-bottom: 10px solid #046380;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.card-body .header3 {
+  line-height: 70px;
+  color: #046380;
+}
+
+.card:hover .header3 {
+  color: #1aaead;
+  transform: scale(1.1);
+}
+
+
+/* Attractions End*/
+
+footer {
+  background-color: sandybrown
+}
+
+
+/* Regular Screens > 768px  */
+
+@supports (display:grid) {
+
+@media only screen and (min-width: 768px) {
+  
+  .site {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: auto;
+    grid-gap: 10px;
+  }
+  
+  .cover {
+    grid-column: 1/3;
+  }
+  
+  nav {
+    grid-column: 1/3;
+  }
+  
+  .bb {
+    grid-column: 1/2;
+  }
+  
+  .apt {
+    grid-column: 2/3;
+  }
+  
+  .gallery {
+    grid-column: 1/3;
+  }
+  
+  .rates {
+    grid-column: 1/2;
+  }
+  
+  .testimonials {
+    grid-column: 2/3;
+  }
+  
+  .contact {
+    grid-column: 1/2;
+  }
+  
+  .location {
+    grid-column: 2/3;
+  }
+  
+  .attractions {
+    grid-column: 1/3;
+  }
+  
+  footer {
+    grid-column: 1/3;
+  }
+  
+}
+
+/* Large Screens > 1600px  */
+
+@media only screen and (min-width: 1600px) {
+  
+  body {
+    background-color: white;
+  }
+  
+  .site {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+      "cover cover cover"
+      "nav nav nav"
+      "bb apt test"
+      "gallery gallery gallery"
+      "rates contact location"
+      "attractions attractions attractions"
+      "footer footer footer";
+    width: 100%;
+    margin: auto;
+    
+  }
+  
+  .cover {
+    grid-area: cover;
+  }
+  
+  nav {
+    grid-area: nav
+  }
+  
+  .bb {
+    grid-area: bb;
+  }
+  
+  .apt {
+    grid-area: apt;
+  }
+  
+  .gallery {
+    grid-area: gallery;
+  }
+  
+  .rates {
+    grid-area: rates;
+  }
+  
+  .testimonials {
+    grid-area: test;
+  }
+  
+  .contact {
+    grid-area: contact;
+  }
+  
+  .location {
+    grid-area: location;
+  }
+  
+  .attractions {
+    grid-area: attractions;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
+   
+}
+}
+  
