@@ -127,6 +127,7 @@ section.cover .cover-text p {
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    padding: 20px;
   }
   .introduction h1,
   h3 {
@@ -174,6 +175,7 @@ section.cover .cover-text p {
   }
   .rooms {
     background-color: #193441;
+    padding: 20px;
   }
   .rooms h1 {
     text-align: center;
