@@ -70,7 +70,7 @@ section.cover .cover-text p {
     padding: 5px
   }
   nav ul li a {
-    display: inline-block;
+    display: block;
     font-size: 1em;
     font-weight: 300;
     letter-spacing: 3px;
@@ -760,10 +760,12 @@ section.cover .cover-text p {
   }
   header nav ul.open,
   a {
-    height: auto;
-    padding: 27px;
+    height:auto;
+    padding: 20px;
     color: white;
+    display: block;
   }
+  
   .introduction {
     padding: 50px 0 50px 0;
   }
