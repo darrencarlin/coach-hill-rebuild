@@ -183,17 +183,20 @@
           </p>
         </div>
         <div class="p11">
-          <form id="contact" action="mail.php" method="post" role="form">
+          <form id="contact" action="php/mail.php" method="post" role="form">
             <label for="name">Name<span class="asterix">*</span></label> 
             <input id="name" name="name" type="text" role="combobox" required> 
             <label for="email">Email<span class="asterix">*</span></label> 
             <input id="email" name="email" type="email" required> 
+<!--
             <label for="phone">Phone Number<span class="asterix">*</span></label> 
             <input id="phone" name="phone" type="tel" required> 
+-->
             <label for="message">Message<span class="asterix">*</span></label> 
             <textarea id="message" name="message" role="textbox" required></textarea>
+              <div id="form-messages"></div>
             <input type="submit" value="submit" role="button">
-            <div id="form-messages"></div>
+            
           </form>
             
         </div><!-- <div class="p12"> <p class="center">Be sure to follow us on Facebook <a class="face" href="https://www.facebook.com/pages/Coach-Hill-House/103879606356970"><img alt="" height="64" src="images/svg/facebook.svg" width="64"></a></p></div>-->
@@ -268,7 +271,7 @@
   </script> 
   <script src="js/script.js">   
   </script>
-  <script src="contact.js">
+  <script src="js/contact.js">
   </script>
   <noscript>Your browser does not support JavaScript!</noscript>
 </body>
