@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Central Statistics Office</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/slick.css">
+		<link rel="stylesheet" href="css/slick-theme.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+		<link rel="stylesheet" href="css/prism.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+	</head>
+	
+	<body>
+	
+	<!-- 
+		
+			Container Options 
+			
+				- container-default 
+				- container-half 
+				- container-full
+				
+				Containers are 
+			
+			Color Options:
+			
+				- cyan (default)
+				- blue
+				- pink
+				- orange
+				- yellow
+				- purple 
+			
+				
+				To change a colour of one of the modules, add ONE of the classes above to the end of the class 
+				on the same line that includes the comment  'Add Colour Here'
+				
+				e.g class="modular-box blue"
+				
+				You can add colour to the following elements:
+				
+					- Navigation
+					- Module Boxes
+					- Buttons
+					- Form Element
+					
+			Button Options:
+				
+				- style:
+					- square (default)
+					- rounded
+				- color:
+					- as above
+				
+				To change the button style and colour, follow the same rules as above, add one or more classes above 
+				to the end of the class on the same line that includes the comment 'Add Button Styles Here'
+				
+				e.g class="button" (default)
+					class="button-rounded blue" 
+							
+		-->
+	
+	
+	
+	<div class="site">
+		
+		
+		<div class="site-header">	
+			<h1 class="logo">
+				<img src="img/logo.png" alt="cso logo">
+				<hr>
+			</h1>
+		
+		</div>
+		<div class="site-navigation"> <!-- Add Colour Here -->
+			 <ul class="main-nav">
+				<li><a href="main-template.html">Home</a></li>
+				<li><a href="layout.html">Layout</a></li>
+				<li><a href="#">Modules</a></li>
+				<li><a href="text.html">Textual</a></li>
+				<li><a href="forms.html">Forms</a></li>
+				<li><a href="tables.html">Tables</a></li>
+				<li><a href="example1.html">Example 1</a></li>
+				<li><a href="example2.html">Example 2</a></li> 
+				<li><a href="example3.html">Example 3</a></li>
+			</ul>
+		</div>
+		
+		<div class="container-full">
+			<div class="modular-box-text">
+	<div class="heading-1">
+		<h1>Modules<h1>
+		<hr>
+	</div>
+	<p>These are the modules that will be placed within the containers you have placed in the starter template. </p>
+	<p>If you are using a Header, Navigation &amp; Footer, they must be placed in their logical order shown below</p>
+	<p>You will see each modules respective attributes, if you view the source code you will see instructions and
+		examples on how to change these</p>
+		<div class="wrapper">
+			<ol>
+				<li><b>Colors:</b></li>
+				<li>Cyan (Default)</li>
+				<li>Blue </li>
+				<li>Pink </li>
+				<li>Orange </li>
+				<li>Yellow </li>
+				<li>Purple </li>
+				<li>White (Useful for text modules) </li>
+			</ol>
+			<ol>
+				<li><b>Buttons:</b></li>
+				<li>Square (Default)</li>
+				<li>Rounded </li>
+			</ol>
+			<ol>
+				<li><b>Icons:</b></li>
+				<li>Font Awesome Icons</li>
+			</ol>
+		</div>
+	</div>
+		</div>
+		
+		
+		<div class="container-default">
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Header<h1>
+					<hr>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-full center">
+		
+			<button class="button-toggle" type="button">Show Header Code</button>
+			
+			<pre>
+			<code class="language-html">
+			<xmp>
+			
+			<div class="site-header">	
+				<h1 class="logo">
+					<img src="img/logo.png" alt="cso logo">
+					<hr>
+				</h1>
+			</div>				
+					
+
+			</xmp>
+			</code>
+			</pre>		
+		</div>		
+		
+		<div class="container-default">
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Navigation<h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+				</ol>
+			</div>
+		</div>
+		
+		<div class="container-full center">
+		
+			<button class="button-toggle" type="button">Show Navigation Code</button>
+			
+			<pre>
+			<code class="language-html">
+			<xmp>
+			
+			<div class="site-navigation"> <!-- Add Colour Here -->
+				<ul class="main-nav">
+					<li><a href="#">Nav Link 1</a></li>
+					<li><a href="#">Nav Link 2</a></li>
+					<li><a href="#">Nav Link 3</a></li> 
+					<li><a href="#">Nav Link 4</a></li>
+					<li><a href="#">Nav Link 5</a></li>
+					<li><a href="#">Nav Link 6</a></li>
+				</ul>
+			</div>			
+					
+			</xmp>
+			</code>
+			</pre>		
+		</div>
+		
+		
+		
+			<!-- OPTIONAL footer (Must be container within modular-box between modular body) -->
+		
+		<div class="container-half">
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Modular Box Footers - Optional <h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button Styles</li>
+				</ol>
+				<p> Module box footers can be added to any module where it makes sense to do so. 
+				    They can be displayed in a variety of colours and button shapes </p>
+			</div>
+		
+
+			
+			
+		
+			
+			<div class="modular-footer">
+			<span style="float:left;">Default</span>
+				<a href="#" class="button">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+			</div>
+			<br>
+			<div class="modular-footer blue">
+			<span style="float:left;">Blue</span>
+				<a href="#" class="button-rounded">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+			</div>
+			<br>
+			<div class="modular-footer pink">
+			<span style="float:left;">Pink</span>
+				<a href="#" class="button">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+			</div>
+			<br>
+			<div class="modular-footer orange">
+			<span style="float:left;">Orange</span>
+				<a href="#" class="button-rounded">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+			</div>
+			<br>
+			<div class="modular-footer purple">
+			<span style="float:left;">Purple</span>
+				<a href="#" class="button">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+			</div>
+			<br>
+			<div class="modular-footer white">
+			<span style="color:#000000; float:left;">White</span>
+				<a href="#" class="button-rounded white">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+			</div>
+			<br>
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+	
+		
+		<pre>
+		<code class="language-html">
+		<xmp>
+		
+		<div class="modular-footer pink"> <!-- Add Colour Here -->
+			<a href="#" class="button-rounded pink">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a> <!-- Add Button Style & Color Here -->
+		</div>
+			
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		<div class="container-half">
+		
+		<!-- Modular Box - Simple List of Links w/out Button -->
+		<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Modular Box - Simple List of Links w/out Button<h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button</li>
+					<li>Icon Change</li>
+				</ol>
+			</div>
+		
+		<div class="modular-box pink"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Module - List</h3> 
+				<ul>
+					<li><i class="fa fa-header" aria-hidden="true"></i></li> <!-- Add Font Awesome Icon Here --> 
+				</ul>
+			</div>
+			<div class="modular-body">
+				<ul>
+					<li><a href="#"> List Item - 1 </a></li>
+					<li><a href="#"> List Item - 2 </a></li>
+					<li><a href="#"> List Item - 3 </a></li>
+				</ul>
+			</div>
+		</div>
+		
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		
+		<pre>
+		<code class="language-html">
+		<xmp>
+					
+		<div class="modular-box"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Module - List</h3> 
+				<ul>
+					<li><i class="fa fa-header" aria-hidden="true"></i></li> <!-- Add Font Awesome Icon Here --> 
+				</ul>
+			</div>
+			<div class="modular-body">
+				<ul>
+					<li><a href="#"> List Item - 1 </a></li>
+					<li><a href="#"> List Item - 2 </a></li>
+					<li><a href="#"> List Item - 3 </a></li>
+				</ul>
+			</div>
+		</div>				
+
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		
+		<div class="container-half">
+		
+		<!-- Modular Box - Simple List of Links w/out Button & Sub Headings -->
+		<div class="modular-box-text">
+			<div class="heading-1">
+				<h1>Modular Box - Simple List of Links w/ Sub Heading's w/out Button<h1>
+				<hr>
+			</div>
+			<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button</li>
+					<li>Icon Change</li>
+				</ol>
+		</div>
+		<div class="modular-box"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Module - List</h3> 
+				<ul>
+					<li><i class="fa fa-header" aria-hidden="true"></i></li> <!-- Add Font Awesome Icon Here --> 
+				</ul>
+			</div>
+			<div class="modular-body">
+			<h3 class="heading">Sub Heading</h3>
+				<ul>
+					<li class="indent"><a href="#"> List Item - 1 </a></li>
+					<li class="indent"><a href="#"> List Item - 2 </a></li>
+					<li class="indent"><a href="#"> List Item - 3 </a></li>
+				</ul>
+			<h3 class="heading">Sub Heading</h3>
+				<ul>
+					<li class="indent"><a href="#"> List Item - 1 </a></li>
+					<li class="indent"><a href="#"> List Item - 2 </a></li>
+					<li class="indent"><a href="#"> List Item - 3 </a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		<pre>
+		<code class="language-html">
+		<xmp>
+
+		<div class="modular-box"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Module - List</h3> 
+				<ul>
+					<li><i class="fa fa-header" aria-hidden="true"></i></li> <!-- Add Font Awesome Icon Here --> 
+				</ul>
+			</div>
+			<div class="modular-body">
+			<h3 class="heading">Sub Heading</h3>
+				<ul>
+					<li class="indent"><a href="#"> List Item - 1 </a></li>
+					<li class="indent"><a href="#"> List Item - 2 </a></li>
+					<li class="indent"><a href="#"> List Item - 3 </a></li>
+				</ul>
+			<h3 class="heading">Sub Heading</h3>
+				<ul>
+					<li class="indent"><a href="#"> List Item - 1 </a></li>
+					<li class="indent"><a href="#"> List Item - 2 </a></li>
+					<li class="indent"><a href="#"> List Item - 3 </a></li>
+				</ul>
+			</div>
+		</div>		
+			
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		
+		<div class="container-half">
+		
+			<!-- Modular Box - Simple List of Links w/out Button & Paragraph -->
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Modular Box - Simple List of Links w/out Button & Paragraph<h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button</li>
+					<li>Icon Change</li>
+				</ol>
+			</div>
+			<div class="modular-box orange"> <!-- Add Color Here -->
+				<div class="modular-header">
+					<h3>Module - List</h3> 
+					<ul>
+						<li><i class="fa fa-header" aria-hidden="true"></i></li> <!-- Add Font Awesome Icon Here --> 
+					</ul>
+				</div>
+				<div class="modular-body">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+				Aenean commodo ligula eget dolor. Aenean massa. 
+				Cum sociis natoque penatibus et magnis dis parturient montes. 
+				</p>
+					<ul>
+						<li class="indent"><a href="#"> List Item - 1 </a></li>
+						<li class="indent"><a href="#"> List Item - 2 </a></li>
+						<li class="indent"><a href="#"> List Item - 3 </a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		<pre>
+		<code class="language-html">
+		<xmp>
+					
+		<div class="modular-box orange"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Module - List</h3> 
+				<ul>
+					<li><i class="fa fa-header" aria-hidden="true"></i></li> <!-- Add Font Awesome Icon Here --> 
+				</ul>
+			</div>
+			<div class="modular-body">
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+			Aenean commodo ligula eget dolor. Aenean massa. 
+			Cum sociis natoque penatibus et magnis dis parturient montes. 
+			</p>
+				<ul>
+					<li class="indent"><a href="#"> List Item - 1 </a></li>
+					<li class="indent"><a href="#"> List Item - 2 </a></li>
+					<li class="indent"><a href="#"> List Item - 3 </a></li>
+				</ul>
+			</div>
+		</div>				
+
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		
+		<div class="container-half">
+		
+		<!-- Modular Box - Simple List of Links w/ Button -->
+		<div class="modular-box-text">
+			<div class="heading-1">
+				<h1>Modular Box - Simple List of Links w/ Button<h1>
+				<hr>
+			</div>
+			<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button</li>
+					<li>Icon Change</li>
+				</ol>
+		</div>		
+		<div class="modular-box"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Module - List</h3> 
+				<ul>
+					<li><i class="fa fa-header" aria-hidden="true"></i></li> <!-- Add Font Awesome Icon Here --> 
+				</ul>
+			</div>
+			<div class="modular-body">
+				<ul>
+					<li><a href="#"> List Item - 1 </a></li>
+					<li><a href="#"> List Item - 2 </a></li>
+					<li><a href="#"> List Item - 3 </a></li>
+				</ul>
+			</div>
+			<div class="modular-footer">
+				<a href="#" class="button-rounded">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a> <!-- Add Button Styles Here --> 
+			</div>
+		</div>
+		
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		<pre>
+		<code class="language-html">
+		<xmp>
+
+		<div class="modular-box purple"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Module - List</h3> 
+				<ul>
+					<li><i class="fa fa-header" aria-hidden="true"></i></li> <!-- Add Font Awesome Icon Here --> 
+				</ul>
+			</div>
+			<div class="modular-body">
+				<ul>
+					<li><a href="#"> List Item - 1 </a></li>
+					<li><a href="#"> List Item - 2 </a></li>
+					<li><a href="#"> List Item - 3 </a></li>
+				</ul>
+			</div>
+			<div class="modular-footer">
+				<a href="#" class="button-rounded">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a> <!-- Add Button Styles Here --> 
+			</div>
+		</div>		
+				
+
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		
+		<div class="container-half">
+		
+			<!-- Modular Box - Simple List of Links w/out Button & Toolbar Buttons -->
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Modular Box - Simple List of Links w/out Button &amp; Toolbar Buttons<h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button</li>
+					<li>Icon Change</li>
+				</ol>
+			</div>
+			<div class="modular-box blue"> <!-- Add Color Here -->
+				<div class="modular-header">
+					<h3>Module - List</h3> 
+					<div class="social-media">
+						<ul>
+							<li><a class="icon facebook" href="#"><i class="fa fa-cog fa-lg" aria-hidden="true"></i></a></li>
+							<li><a class="icon youtube" href="#"><i class="fa fa-calendar fa-lg" aria-hidden="true"></i></a></li>
+							<li><a class="icon twitter" href="#"><i class="fa fa-podcast fa-lg" aria-hidden="true"></i></a></li>
+							<li><a class="icon rss" href="#"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="modular-body">
+					<ul>
+						<li><a href="#"> List Item - 1 </a></li>
+						<li><a href="#"> List Item - 2 </a></li>
+						<li><a href="#"> List Item - 3 </a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		<pre>
+		<code class="language-html">
+		<xmp>
+
+		<div class="modular-box blue"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Module - List</h3> 
+				<div class="social-media">
+					<ul>
+						<li><a class="icon facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a class="icon youtube" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+						<li><a class="icon twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a class="icon rss" href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="modular-body">
+				<ul>
+					<li><a href="#"> List Item - 1 </a></li>
+					<li><a href="#"> List Item - 2 </a></li>
+					<li><a href="#"> List Item - 3 </a></li>
+				</ul>
+			</div>
+		</div>		
+				
+
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		<div class="container-half">
+		
+			<!-- Modular Box - Simple List with Dropdowns -->
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Modular Box - Simple List w/ Dropdowns<h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button</li>
+					<li>Icon Change</li>
+				</ol>
+			</div>			
+			<div class="modular-box blue"> <!-- Add Color Here -->
+				<div class="modular-header">
+					<h3>Module - List w/ Dropdowns</h3> 
+					<ul><li><i class="fa fa-header" aria-hidden="true"></i></li></ul> <!-- Add Font Awesome Icon Here --> 
+				</div>
+				<div class="modular-body">
+					<button class="accordion"> Item - 1 </button>
+					<div class="panel">
+						<ul>
+							<li><a href="#">Item 1-1</a></li>
+							<li><a href="#">Item 1-2</a></li>
+							<li><a href="#">Item 1-3</a></li>
+							<li><a href="#">Item 1-4</a></li>
+							<li><a href="#">Item 1-5</a></li>
+							<li><a href="#">Item 1-6</a></li>
+							
+						</ul>
+					</div>
+					<button class="accordion"> Item - 2 </button>
+					<div class="panel">
+						<ul>
+							<li><a href="#">Item 2-1</a></li>
+							<li><a href="#">Item 2-2</a></li>
+							<li><a href="#">Item 2-3</a></li>
+							<li><a href="#">Item 2-4</a></li>
+							<li><a href="#">Item 2-5</a></li>
+							<li><a href="#">Item 2-6</a></li>
+						</ul>
+					</div>
+					<button class="accordion"> Item - 3 </button>
+					<div class="panel">
+						<ul>
+							<li><a href="#">Item 3-1</a></li>
+							<li><a href="#">Item 3-2</a></li>
+							<li><a href="#">Item 3-3</a></li>
+							<li><a href="#">Item 3-4</a></li>
+							<li><a href="#">Item 3-5</a></li>
+							<li><a href="#">Item 3-6</a></li>
+						</ul>
+					</div>
+					<button class="accordion"> Item - 4 </button>
+					<div class="panel">
+						<ul>
+							<li><a href="#">Item 4-1</a></li>
+							<li><a href="#">Item 4-2</a></li>
+							<li><a href="#">Item 4-3</a></li>
+							<li><a href="#">Item 4-4</a></li>
+							<li><a href="#">Item 4-5</a></li>
+							<li><a href="#">Item 4-6</a></li>
+						</ul>
+					</div>
+					<button class="accordion"> Item - 5 </button>
+					<div class="panel">
+						<ul>
+							<li><a href="#">Item 5-1</a></li>
+							<li><a href="#">Item 5-2</a></li>
+							<li><a href="#">Item 5-3</a></li>
+							<li><a href="#">Item 5-4</a></li>
+							<li><a href="#">Item 5-5</a></li>
+							<li><a href="#">Item 5-6</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		<pre>
+		<code class="language-html">
+		<xmp>
+
+		<div class="modular-box blue"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Module - List w/ Dropdowns</h3> 
+				<ul>
+					<li><i class="fa fa-header" aria-hidden="true"></i></li>
+				</ul> <!-- Add Font Awesome Icon Here --> 
+			</div>
+			<div class="modular-body">
+				<button class="accordion"> Item - 1 </button>
+				<div class="panel">
+					<ul>
+						<li><a href="#">Item 1-1</a></li>
+						<li><a href="#">Item 1-2</a></li>
+						<li><a href="#">Item 1-3</a></li>
+						<li><a href="#">Item 1-4</a></li>
+						<li><a href="#">Item 1-5</a></li>
+						<li><a href="#">Item 1-6</a></li>
+					</ul>
+				</div>
+				<button class="accordion"> Item - 2 </button>
+				<div class="panel">
+					<ul>
+						<li><a href="#">Item 2-1</a></li>
+						<li><a href="#">Item 2-2</a></li>
+						<li><a href="#">Item 2-3</a></li>
+						<li><a href="#">Item 2-4</a></li>
+						<li><a href="#">Item 2-5</a></li>
+						<li><a href="#">Item 2-6</a></li>
+					</ul>
+				</div>
+				<button class="accordion"> Item - 3 </button>
+				<div class="panel">
+					<ul>
+						<li><a href="#">Item 3-1</a></li>
+						<li><a href="#">Item 3-2</a></li>
+						<li><a href="#">Item 3-3</a></li>
+						<li><a href="#">Item 3-4</a></li>
+						<li><a href="#">Item 3-5</a></li>
+						<li><a href="#">Item 3-6</a></li>
+					</ul>
+				</div>
+				<button class="accordion"> Item - 4 </button>
+				<div class="panel">
+					<ul>
+						<li><a href="#">Item 4-1</a></li>
+						<li><a href="#">Item 4-2</a></li>
+						<li><a href="#">Item 4-3</a></li>
+						<li><a href="#">Item 4-4</a></li>
+						<li><a href="#">Item 4-5</a></li>
+						<li><a href="#">Item 4-6</a></li>
+					</ul>
+				</div>
+				<button class="accordion"> Item - 5 </button>
+				<div class="panel">
+					<ul>
+						<li><a href="#">Item 5-1</a></li>
+						<li><a href="#">Item 5-2</a></li>
+						<li><a href="#">Item 5-3</a></li>
+						<li><a href="#">Item 5-4</a></li>
+						<li><a href="#">Item 5-5</a></li>
+						<li><a href="#">Item 5-6</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>		
+
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		<!-- ****  -->
+		
+		
+		<div class="container-half">
+			<!-- Modular Box - List Detailed -->
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Modular Box - Detailed List w/ Button<h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button</li>
+					<li>Icon Change</li>
+				</ol>
+			</div>	
+			<div class="modular-box orange"> <!-- Add Color Here -->
+				<div class="modular-header">
+					<h3>Module - List Detailed</h3> 
+					<ul>
+						<li><i class="fa fa-header" aria-hidden="true"></i></li> <!-- Add Font Awesome Icon Here --> 
+					</ul>
+				</div>
+				<div class="modular-body">
+					<ul>
+						<li> 
+							<a href="#" class="detailed-list"> 
+								<h3 class="detailed-list">Link Item - 1</h3>
+								<p > Meta Text </p>
+							</a>
+						</li>
+						<li> 
+							<a href="#" class="detailed-list"> 
+								<h3 class="detailed-list">Link Item - 1</h3>
+								<p > Meta Text </p>
+							</a>
+						</li>
+						<li> 
+							<a href="#" class="detailed-list"> 
+								<h3 class="detailed-list">Link Item - 1</h3>
+								<p > Meta Text </p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="modular-footer">
+					 <a href="#" class="button-rounded">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a> 
+				</div>
+			</div>	
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		<pre>
+		<code class="language-html">
+		<xmp>
+
+		<div class="modular-box orange"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Module - List Detailed</h3> 
+				<ul>
+					<li><i class="fa fa-header" aria-hidden="true"></i></li> <!-- Add Font Awesome Icon Here --> 
+				</ul>
+			</div>
+			<div class="modular-body">
+				<ul>
+					<li> 
+						<a href="#" class="detailed-list"> 
+							<h3 class="detailed-list">Link Item - 1</h3>
+							<p > Meta Text </p>
+						</a>
+					</li>
+					<li> 
+						<a href="#" class="detailed-list"> 
+							<h3 class="detailed-list">Link Item - 1</h3>
+							<p > Meta Text </p>
+						</a>
+					</li>
+					<li> 
+						<a href="#" class="detailed-list"> 
+							<h3 class="detailed-list">Link Item - 1</h3>
+							<p > Meta Text </p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="modular-footer">
+				 <a href="#" class="button-rounded">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a> <!-- Add Button Styles Here --> 
+			</div>
+		</div>		
+				
+
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		
+		
+		<div class="container-half">
+		
+			<!-- Modular Box - Simple Image / Graph -->
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Modular Box - Simple Image / Graph<h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button</li>
+					<li>Icon Change</li>
+					<li>Images</li>
+				</ol>
+			</div>	
+		 	<div class="modular-box"> <!-- Add Color Here -->
+				<div class="modular-header">
+					<h3>Module - Simple - Image</h3> <ul><li><i class="fa fa-camera" aria-hidden="true"></i></li></ul> <!-- Add Font Awesome Icon Here --> 
+				</div>
+				<div class="modular-body">
+					<img src="http://www.cso.ie/en/media/csoie/studentscorner/images/infographics/All_Ireland_Hurling_final_Galway_v_Waterford_Medium.png" alt=""> <!-- Add Image Here -->
+				<div class="modular-footer">
+					 <a href="#" class="button">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a> <!-- Add Button Styles Here --> 
+				</div>
+			</div>
+		
+		</div>
+		</div>
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		<pre>
+		<code class="language-html">
+		<xmp>
+
+		<div class="modular-box"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Module - Simple - Image</h3> <ul><li><i class="fa fa-camera" aria-hidden="true"></i></li></ul> <!-- Add Font Awesome Icon Here --> 
+			</div>
+			<div class="modular-body">
+				<img src="http://www.cso.ie/en/media/csoie/studentscorner/images/infographics/All_Ireland_Hurling_final_Galway_v_Waterford_Medium.png" alt=""> <!-- Add Image Here -->
+			</div>
+			<div class="modular-footer">
+				 <a href="#" class="button">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a> <!-- Add Button Styles Here --> 
+			</div>
+		</div>		
+				
+
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		
+		<div class="container-half">
+		
+			<!-- Modular Box - Image Slider -->
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Image Slider<h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button</li>
+					<li>Icon Change</li>
+					<li>Image</li>
+				</ol>
+			</div>
+			<div class="modular-box blue"> <!-- Add Color Here -->
+				<div class="modular-header">
+					<h3>Image Slider</h3> <ul><li><i class="fa fa-camera" aria-hidden="true"></i></li></ul> <!-- Add Font Awesome Icon Here --> 
+				</div>
+				<div class="modular-body">
+					<div class="slide">
+						<div><a href=""><img src="img/1.png" alt=""/></a></div> <!-- Add Image Here -->
+						<div><a href=""><img src="img/2.png" alt=""/></a></div> <!-- Add Image Here -->
+						<div><a href=""><img src="img/3.png" alt=""/></a></div> <!-- Add Image Here -->
+					</div>
+				</div>
+			</div>	
+			
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		<pre>
+		<code class="language-html">
+		<xmp>
+
+		<div class="modular-box blue"> <!-- Add Color Here -->
+			<div class="modular-header">
+				<h3>Image Slider</h3> <ul><li><i class="fa fa-camera" aria-hidden="true"></i></li></ul> <!-- Add Font Awesome Icon Here --> 
+			</div>
+			<div class="modular-body">
+				<div class="slide">
+					<div><a href=""><img src="img/1.png" alt=""/></a></div> <!-- Add Image Here -->
+					<div><a href=""><img src="img/2.png" alt=""/></a></div> <!-- Add Image Here -->
+					<div><a href=""><img src="img/3.png" alt=""/></a></div> <!-- Add Image Here -->
+				</div>
+			</div>
+		</div>			
+				
+
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		
+		<div class="container-half">
+		
+			<!-- Modular Box - Small - Simple w/out Button -->
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Modular Box - Small - Simple w/out Button<h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button</li>
+					<li>Icon Change</li>
+				</ol>
+			</div>
+			<div class="modular-box-small pink"> <!-- Add Color Here -->
+				<div class="modular-body-small">
+					<h3>Module - Simple</h3>
+					<i class="fa fa-bar-chart fa-4x" aria-hidden="true"></i> <!-- Add Font Awesome Icon Here --> 
+					<p> Lorem ipsum dolor sit amet, veri discere detracto in mea, 
+					stet placerat at pro, adhuc salutatus mea cu. Verear vidisse 
+					delicata his ad. </p>
+				</div>
+			</div> 
+			
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		<pre>
+		<code class="language-html">
+		<xmp>
+
+		<div class="modular-box-small pink"> <!-- Add Color Here -->
+			<div class="modular-body-small">
+				<h3>Module - Simple</h3>
+				<i class="fa fa-bar-chart fa-4x" aria-hidden="true"></i> <!-- Add Font Awesome Icon Here --> 
+				<p> Lorem ipsum dolor sit amet, veri discere detracto in mea, 
+				stet placerat at pro, adhuc salutatus mea cu. Verear vidisse 
+				delicata his ad. </p>
+			</div>
+		</div> 		
+				
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		
+		<div class="container-half">
+		
+			<!-- Modular Box - Small - Simple w/ Button -->
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Modular Box - Small - Simple w/ Button<h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>Colour</li>
+					<li>Button</li>
+					<li>Icon Change</li>
+				</ol>
+			</div>
+			<div class="modular-box-small orange"> <!-- Add Color Here -->
+				<div class="modular-body-small">
+					<h3>Module - Simple</h3>
+					<i class="fa fa-bar-chart fa-4x" aria-hidden="true"></i> <!-- Add Font Awesome Icon Here leave fa-4x size as is --> 
+					<p> Lorem ipsum dolor sit amet, veri discere detracto in mea, 
+					stet placerat at pro, adhuc salutatus mea cu. Verear vidisse 
+					delicata his ad.</p>
+				</div>
+				<div class="modular-footer-small">
+					<a href="#" class="button">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a> <!-- Add Button Styles Here -->
+				</div>	
+			</div>
+		
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		<pre>
+		<code class="language-html">
+		<xmp>
+
+		<div class="modular-box-small orange"> <!-- Add Color Here -->
+			<div class="modular-body-small">
+				<h3>Module - Simple</h3>
+				<i class="fa fa-bar-chart fa-4x" aria-hidden="true"></i> <!-- Add Font Awesome Icon Here leave fa-4x size as is --> 
+				<p> Lorem ipsum dolor sit amet, veri discere detracto in mea, 
+				stet placerat at pro, adhuc salutatus mea cu. Verear vidisse 
+				delicata his ad.</p>
+			</div>
+			<div class="modular-footer-small">
+				<a href="#" class="button">Button <i class="fa fa-chevron-right" aria-hidden="true"></i></a> <!-- Add Button Styles Here -->
+			</div>	
+		</div>		
+		
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+						<div class="container-default">
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Footer<h1>
+					<hr>
+				</div>
+				<ol>
+					<li><b>Atributes:</b></li>
+					<li>None</li>
+				</ol>
+			</div>
+		</div>
+		
+		<div class="container-full center">
+		
+			<button class="button-toggle" type="button">Show Navigation Code</button>
+			
+			<pre>
+			<code class="language-html">
+			<xmp>
+			
+			<div class="footer">
+				<div class="social-media">
+				  <ul>
+					<li>
+					  <a class="icon facebook" href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+					</li>
+					<li>
+					  <a class="icon youtube" href="#"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+					</li>
+					<li>
+					  <a class="icon twitter" href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					</li>
+					<li>
+					  <a class="icon rss" href="#"><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					</li>
+				  </ul>
+				</div>
+				<div class="footer-info">
+				  <ul>
+				    
+					<li>
+					  &copy; 2017
+					</li>
+					
+					<li>
+					  <a href="#">Freedom of Information</a>
+					</li>
+					
+					<li>
+					  <a href="#">Sitemap</a>
+					</li>
+					
+					<li>
+					  <a href="#">Accessibility</a>
+					</li>
+					
+					<li>
+					  <a href="#">Privacy Statment</a>
+					</li>
+					
+					<li>
+					  <a href="#">Feedback</a>
+					</li>
+					
+					<li>
+					  <a href="#">Contact Us</a>
+					</li>
+				  </ul>
+				</div>
+				<div class="footer-contact">
+				  <ul>
+				    
+					<li>
+					  <a href="#"><b> Central Statistics Office</b></a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Skehard Road, Cork T12 X00E, Ireland</a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 353-21-4535000 </a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-fax" aria-hidden="true"></i> 353-21-4535555 </a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> information@cso.ie</a>
+					</li>
+				  </ul>
+				<ul class="footer-contact-census">
+					<li>
+						<a href="#"><b> Contact Census</b></a>
+					</li>
+					<li>
+					  <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> LoCall 1850 2016 04 </a>
+					</li>
+					<li>
+					  <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> census@cso.ie </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		
+					
+			</xmp>
+			</code>
+			</pre>		
+		</div>
+			<div class="footer">
+				<div class="social-media">
+				  <ul>
+					<li>
+					  <a class="icon facebook" href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+					</li>
+					<li>
+					  <a class="icon youtube" href="#"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+					</li>
+					<li>
+					  <a class="icon twitter" href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					</li>
+					<li>
+					  <a class="icon rss" href="#"><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					</li>
+				  </ul>
+				</div>
+				<div class="footer-info">
+				  <ul>
+				    
+					<li>
+					  &copy; 2017
+					</li>
+					
+					<li>
+					  <a href="#">Freedom of Information</a>
+					</li>
+					
+					<li>
+					  <a href="#">Sitemap</a>
+					</li>
+					
+					<li>
+					  <a href="#">Accessibility</a>
+					</li>
+					
+					<li>
+					  <a href="#">Privacy Statment</a>
+					</li>
+					
+					<li>
+					  <a href="#">Feedback</a>
+					</li>
+					
+					<li>
+					  <a href="#">Contact Us</a>
+					</li>
+				  </ul>
+				</div>
+				<div class="footer-contact">
+				  <ul>
+				    
+					<li>
+					  <a href="#"><b> Central Statistics Office</b></a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Skehard Road, Cork T12 X00E, Ireland</a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 353-21-4535000 </a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-fax" aria-hidden="true"></i> 353-21-4535555 </a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> information@cso.ie</a>
+					</li>
+				  </ul>
+				<ul class="footer-contact-census">
+					<li>
+						<a href="#"><b> Contact Census</b></a>
+					</li>
+					<li>
+					  <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> LoCall 1850 2016 04 </a>
+					</li>
+					<li>
+					  <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> census@cso.ie </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		</div>
+		
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/prism.js"></script>
+	<script src="js/script.js"></script>
+	<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script> -->
+	</body>
+</html>

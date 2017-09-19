@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Central Statistics Office</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/slick.css">
+		<link rel="stylesheet" href="css/slick-theme.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+		<link rel="stylesheet" href="css/prism.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+	</head>
+	
+	<body>
+	
+	<!-- 
+		
+			Container Options 
+			
+				- container-default 
+				- container-half 
+				- container-full
+				
+				Containers are 
+			
+			Color Options:
+			
+				- cyan (default)
+				- blue
+				- pink
+				- orange
+				- yellow
+				- purple 
+				
+				To change a colour of one of the modules, add ONE of the classes above to the end of the class 
+				on the same line that includes the comment  'Add Colour Here'
+				
+				e.g class="modular-box blue"
+				
+				You can add colour to the following elements:
+				
+					- Navigation
+					- Module Boxes
+					- Buttons
+					- Form Element
+					
+			Button Options:
+				
+				- style:
+					- square (default)
+					- rounded
+				- color:
+					- as above
+				
+				To change the button style and colour, follow the same rules as above, add one or more classes above 
+				to the end of the class on the same line that includes the comment 'Add Button Styles Here'
+				
+				e.g class="button" (default)
+					class="button-rounded blue" 
+							
+		-->
+	
+	
+	
+	<div class="site">
+	
+	<div class="site-header">	
+			<h1 class="logo">
+				<img src="img/logo.png" alt="cso logo">
+				<hr>
+			</h1>
+		
+		</div>
+		<div class="site-navigation"> <!-- Add Colour Here -->
+			 <ul class="main-nav">
+				<li><a href="main-template.html">Home</a></li>
+				<li><a href="#">Layout</a></li>
+				<li><a href="modules.html">Modules</a></li>
+				<li><a href="text.html">Textual</a></li>
+				<li><a href="forms.html">Forms</a></li>
+				<li><a href="tables.html">Tables</a></li>
+				<li><a href="example1.html">Example 1</a></li>
+				<li><a href="example2.html">Example 2</a></li> 
+				<li><a href="example3.html">Example 3</a></li>
+			</ul>
+		</div>
+		
+		
+		<div class="container-full">
+			<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Containers &amp; Layout Options<h1>
+					<hr>
+				</div>
+				
+				<p>Three layout options exist:<p>
+			
+				<ol>
+				 <li>'container-default' takes up 33% of browser window</li>
+				 <li>'container-half' takes up 66% of browser window</li>
+				 <li>'container-full' takes up 95% of browser window</li>
+				</ol>
+				
+				<p> site > containers > modules </p>
+			
+				<p>You can use up to 3 container-default's in sequence to build a 3 column layout.</p>
+				
+				<p>You can use up to 2 container-half's in sequence to build a larger 2 column layout.</p>
+				
+				<p>You can use 1 container-full to build a 1 column layout.</p>
+				
+				<p> Use the code snippets below within the starter template in order to build your desired layout </p>
+	
+			</div>			
+
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle-d" type="button">Container-Default</button>
+		<button class="button-toggle-h" type="button">Container-Half</button>
+		<button class="button-toggle-f" type="button">Container-Full</button>	
+			<pre class="pre-d">
+			<code class="language-html">
+			<xmp>
+			
+			<div class="container-default">
+			
+				<!-- 
+				
+				Column Width of 33% or 1/3 of browser window 
+				
+				3 of these in sequence will result in a 3 small column layout
+				
+				-->
+
+				
+			</div>
+			
+			</xmp>
+			</code>
+			</pre>
+			
+
+			<pre class="pre-h">
+			<code class="language-html">
+			<xmp>
+			
+			<div class="container-half">
+			
+				<!-- 
+				
+				Column Width of 66% or 2/3 of browser window 
+				
+				2 of these in sequence will result in a 2 medium size column layout
+				
+				-->
+				
+				
+			</div>
+			
+			</xmp>
+			</code>
+			</pre>
+			
+			
+			
+			<pre class="pre-f">
+			<code class="language-html">
+			<xmp>
+			
+			<div class="container-full">
+			
+				<!-- 
+				
+				Column Width of 95% or 3/3 of browser window 
+				
+				1 of these will result in a 1 large size column layout
+				
+				--> 
+			
+			</div>
+		
+
+			</xmp>
+			</code>
+			</pre>	
+		
+		</div>
+		
+		
+		
+		<div class="container-default">
+						<div class="modular-box-text">
+				<div class="heading-1">
+					<h1>Starter Template<h1>
+					<hr>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-full center">
+		
+		<button class="button-toggle" type="button">Show Code</button>
+		
+		<pre>
+		<code class="language-html">
+		<xmp>
+		
+		
+		<!DOCTYPE html>
+		<html lang="en">
+			<head>
+				<title>Central Statistics Office</title>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width">
+				<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+				<link rel="stylesheet" href="slick/slick.css">
+				<link rel="stylesheet" href="slick/slick-theme.css">
+				<link rel="stylesheet" href="css/styles.css">
+				<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+				
+			</head>
+	
+			<body>
+			
+				<div class="site">
+				
+								
+					<!-- Layout Containers & Content Goes Here -->
+					<!-- Layout Containers & Content Goes Here -->
+					<!-- Layout Containers & Content Goes Here -->
+				
+
+				</div>
+					
+			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+			<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+			<script src="js/slick.min.js"></script>
+			<script src="js/prism.js"></script>
+			<script src="js/script.js"></script>	
+			</body>
+		</html>
+			
+		</xmp>
+		</code>
+		</pre>		
+		</div>
+		
+		
+			<div class="footer">
+				<div class="social-media">
+				  <ul>
+					<li>
+					  <a class="icon facebook" href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+					</li>
+					<li>
+					  <a class="icon youtube" href="#"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+					</li>
+					<li>
+					  <a class="icon twitter" href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					</li>
+					<li>
+					  <a class="icon rss" href="#"><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					</li>
+				  </ul>
+				</div>
+				<div class="footer-info">
+				  <ul>
+				    
+					<li>
+					  &copy; 2017
+					</li>
+					
+					<li>
+					  <a href="#">Freedom of Information</a>
+					</li>
+					
+					<li>
+					  <a href="#">Sitemap</a>
+					</li>
+					
+					<li>
+					  <a href="#">Accessibility</a>
+					</li>
+					
+					<li>
+					  <a href="#">Privacy Statment</a>
+					</li>
+					
+					<li>
+					  <a href="#">Feedback</a>
+					</li>
+					
+					<li>
+					  <a href="#">Contact Us</a>
+					</li>
+				  </ul>
+				</div>
+				<div class="footer-contact">
+				  <ul>
+				    
+					<li>
+					  <a href="#"><b> Central Statistics Office</b></a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Skehard Road, Cork T12 X00E, Ireland</a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 353-21-4535000 </a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-fax" aria-hidden="true"></i> 353-21-4535555 </a>
+					</li>
+					
+					<li>
+					  <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> information@cso.ie</a>
+					</li>
+				  </ul>
+				<ul class="footer-contact-census">
+					<li>
+						<a href="#"><b> Contact Census</b></a>
+					</li>
+					<li>
+					  <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> LoCall 1850 2016 04 </a>
+					</li>
+					<li>
+					  <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> census@cso.ie </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/prism.js"></script>
+	<script src="js/script.js"></script>
+	</body>
+</html>
